@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Information</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #FFF0D1;
+        }
+
+        .header {
+            background-color: #3B3030;
+            color: #FFF0D1;
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .profile-container {
+            background-color: #664343;
+            padding: 50px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .profile-container img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #FFF0D1;
+        }
+
+        .profile-container h1 {
+            margin: 20px 0;
+            font-size: 28px;
+            color: #FFD479;
+        }
+
+        .profile-container h2 {
+            margin: 5px 0;
+            font-weight: 300;
+            font-size: 20px;
+            color: #FFF0D1;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            margin: 40px auto;
+            max-width: 1200px;
+        }
+
+        .left, .right {
+            width: 45%;
+            background-color: #796666;
+            padding: 20px;
+            border-radius: 10px;
+            color: #FFF0D1;
+        }
+
+        .left h2, .right h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #FFD479;
+        }
+
+        .left p, .right p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+            color: #FFF0D1;
+        }
+
+        .personal-info p {
+            font-size: 18px;
+        }
+
+        .social-links {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .social-links h2 {
+            color: #3B3030;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+
+        .social-links a i {
+            font-size: 50px;
+            margin: 0 20px;
+            transition: 0.3s;
+        }
+
+        .social-links a.github i {
+            color: #333;
+        }
+
+        .social-links a.linkedin i {
+            color: #0077b5;
+        }
+
+        .social-links a.twitter i {
+            color: #1DA1F2;
+        }
+
+        .social-links a:hover i {
+            transform: scale(1.2);
+        }
+
+        footer {
+            background-color: #3B3030;
+            color: #FFF0D1;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Bagian Atas -->
+    <div class="header">
+        My Personal Information
+    </div>
+
+    <!-- Bagian Profil -->
+    <div class="profile-container">
+        <img src="https://storage.googleapis.com/img-profile-bucket/me.jpg" alt="Profile Photo">
+        <h1>Aes Saputra</h1>
+        <h2>Cloud Engineering</h2>
+    </div>
+
+    <!-- Bagian Utama -->
+    <div class="content">
+        <!-- Bagian Kiri: Cerita atau Bio -->
+        <div class="left">
+            <h2>My Story</h2>
+            <p>Hello, I'm Aes Saputra, a passionate Cloud Engineer with a deep interest in scalable and efficient cloud solutions. Over the years, I've worked with various cloud platforms, helping businesses optimize their infrastructure for 
+growth and efficiency.</p>
+            <p>Since I started my journey, I've been committed to learning the ins and outs of cloud computing, from managing databases and scaling applications to ensuring system reliability and security. In my free time, I enjoy exploring n
+ew technologies and contributing to open-source projects.</p>
+            <p>Cloud engineering is more than just a job for me—it's my passion. I believe in the power of cloud technology to transform businesses and I constantly push myself to stay updated with the latest trends in this fast-paced industr
+y.</p>
+        </div>
+
+        <!-- Bagian Kanan: Informasi Pribadi -->
+        <div class="right">
+            <h2>Personal Information</h2>
+            <div class="personal-info">
+                <p><strong>Age:</strong> 19 years old</p>
+                <p><strong>Phone:</strong> +62-812-3456-XXX</p>
+                <p><strong>Email:</strong> hi@aessaputra.net</p>
+                <p><strong>Location:</strong> Bandung, Indonesia</p>
+                <p><strong>Education:</strong> Bachelor in Computer Science, Cloud Specialization</p>
+                <p><strong>Hobbies:</strong> Coding, Traveling, Gaming, and Reading about Cloud Innovations</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ikon Media Sosial -->
+    <div class="social-links">
+        <h2>Find me on:</h2>
+        <a href="#" class="github"><i class="fab fa-github"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2024 by Aes Saputra. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
